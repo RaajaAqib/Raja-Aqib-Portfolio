@@ -119,7 +119,7 @@ function sendMail() {
         message: document.getElementById("message").value
     };
 
-    const serviceID = "service_r7ygwc8"; // Replace YOUR_SERVICE_ID with your actual Service ID
+    const serviceID = "service_chos1xq"; // Replace YOUR_SERVICE_ID with your actual Service ID
     const templateID = "template_52pv6ib"; // Replace YOUR_TEMPLATE_ID with your actual Template ID
 
     emailjs.send(serviceID, templateID, params)
