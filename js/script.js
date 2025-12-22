@@ -14,18 +14,19 @@ const nav = document.querySelector(".nav"), // First declaration of 'nav'
       totalSection = allSection.length;
 
 // Event listener for navigation links
-navList.forEach((navItem, i) => {
+navList.forEach(navItem => {
     const link = navItem.querySelector("a");
+
     link.addEventListener("click", () => {
         removeBackSection();
 
-        navList.forEach((navItem, j) => {
-            const link = navItem.querySelector("a");
-            if (link.classList.contains("active")) {
-                addBackSection(j);
-            }
-            link.classList.remove("active");
+        navList.forEach(item => {
+            item.querySelector("a").classList.remove("active");
         });
+
+        // Get currently active section BEFORE switching
+        const activeSection = document.querySelector(".section.active");
+        addBackSection(activeSection);
 
         link.classList.add("active");
         showSection(link);
@@ -36,14 +37,16 @@ navList.forEach((navItem, i) => {
     });
 });
 
+
 // Remove the 'back-section' class from all sections
 function removeBackSection() {
     allSection.forEach(section => section.classList.remove("back-section"));
 }
 
 // Add the 'back-section' class to a specific section
-function addBackSection(num) {
-    allSection[num].classList.add("back-section");
+function addBackSection(targetSection) {
+    if (!targetSection) return;
+    targetSection.classList.add("back-section");
 }
 
 // Show the corresponding section based on the clicked link
@@ -119,7 +122,7 @@ function sendMail() {
         message: document.getElementById("message").value
     };
 
-    const serviceID = "service_d3d972s"; // Replace YOUR_SERVICE_ID with your actual Service ID
+    const serviceID = "service_xwsfugw"; // Replace YOUR_SERVICE_ID with your actual Service ID
     const templateID = "template_52pv6ib"; // Replace YOUR_TEMPLATE_ID with your actual Template ID
 
     emailjs.send(serviceID, templateID, params)
