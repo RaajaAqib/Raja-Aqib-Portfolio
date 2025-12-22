@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Library | Raja Aqib</title>
+
+    <!-- Library CSS -->
+    <link rel="stylesheet" href="css/library.css">
+     <link rel="shortcut icon" href="/images/favicon1.ico" type="image/x-icon">
+<link rel="icon" href="/images/favicon1.ico" type="image/x-icon">
+
+</head>
+
+<body>
+
+    <main class="library-container">
+        <button id="theme-toggle" class="theme-toggle" title="Toggle dark mode">
+    🌙
+</button>
+
+        <h1>📘 Knowledge Library</h1>
+        <p>ServiceNow documentation, scripts, and technical notes.</p>
+
+<!-- Category Filter UI (HTML) -->
+        <div class="category-filters">
+            <button data-category="All" class="active">All</button>
+            <button data-category="ITSM">ITSM</button>
+            <button data-category="CSM">CSM</button>
+            <button data-category="HRSD">HRSD</button>
+            <button data-category="GRC">GRC</button>
+            <button data-category="ITOM">ITOM</button>
+            <button data-category="ITBM">ITBM</button>
+            <button data-category="HAM">HAM</button>
+            <button data-category="SAM">SAM</button>
+            <button data-category="Workspaces">Workspaces</button>
+            <button data-category="Scripting">Scripting</button>
+            <button data-category="Integration">Integration</button>
+            <button data-category="Tech Info">Tech Info</button>
+        </div>
+
+        <input type="text" id="search" placeholder="Search documentation..." />
+
+        <div id="posts-list"></div>
+
+
+
+
+    </main>
+
+    <!-- Library JS -->
+    <script src="js/library.js"></script>
+
+</body>
+
+</html>
