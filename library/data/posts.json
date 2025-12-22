@@ -1,1 +1,242 @@
+[
+  {
+    "title": "ServiceNow Flow Designer – Complete Guide",
+    "slug": "servicenow-flow-designer",
+    "date": "2025-01-10",
+    "category": "ITSM",
+    "tags": ["ServiceNow", "Flow Designer", "Automation"],
+    "summary": "End-to-end explanation of Flow Designer with real examples."
+  },
+  {
+    "title": "GlideAjax Best Practices",
+    "slug": "glideajax-best-practices",
+    "date": "2025-01-15",
+    "category": "Integrations",
+    "tags": ["ServiceNow", "Client Scripts", "Security"],
+    "summary": "How to safely and efficiently use GlideAjax."
+  },
+  {
+    "title": "Major Incident Workspace – Deep Dive",
+    "slug": "major-incident-workspace",
+    "date": "2025-01-18",
+    "category": "ITSM",
+    "tags": ["ServiceNow", "ITSM", "Workspace"],
+    "summary": "Architecture and behavior of Major Incident Workspace."
+  },
+
+   {
+    "title": "Users – Deep Dive",
+    "slug": "user",
+    "date": "2025-01-18",
+    "category": "CSM",
+    "tags": ["ServiceNow", "ITSM", "Workspace"],
+    "summary": "users table deep dive."
+  },
+
+
+
+{
+  "title": "Incident vs Problem vs Change in ServiceNow ITSM",
+  "slug": "incident-problem-change-itsm",
+  "date": "2025-12-22",
+  "category": "ITSM",
+  "tags": ["ITSM", "Incident", "Change"],
+  "summary": "A clear breakdown of Incident, Problem, and Change Management in ServiceNow ITSM with real-world examples."
+},
+{
+  "title": "How SLA Calculation Works in ServiceNow ITSM",
+  "slug": "sla-calculation-servicenow-itsm",
+  "date": "2025-12-22",
+  "category": "ITSM",
+  "tags": ["SLA", "ITSM", "ServiceNow"],
+  "summary": "Explains SLA start, pause, resume, and completion logic in ServiceNow ITSM."
+},
+
+{
+  "title": "Case Management Lifecycle in ServiceNow CSM",
+  "slug": "case-management-lifecycle-csm",
+  "date": "2025-12-22",
+  "category": "CSM",
+  "tags": ["CSM", "Cases", "ServiceNow"],
+  "summary": "An overview of how cases are created, worked, and resolved in ServiceNow Customer Service Management."
+},
+{
+  "title": "CSM vs ITSM: Key Differences Explained",
+  "slug": "csm-vs-itsm-servicenow",
+  "date": "2025-12-22",
+  "category": "CSM",
+  "tags": ["CSM", "ITSM", "Comparison"],
+  "summary": "Highlights the architectural and functional differences between ITSM and CSM in ServiceNow."
+},
+
+{
+  "title": "Employee Lifecycle Management in HRSD",
+  "slug": "employee-lifecycle-hrsd",
+  "date": "2025-12-22",
+  "category": "HRSD",
+  "tags": ["HRSD", "Employee Lifecycle", "ServiceNow"],
+  "summary": "Covers onboarding, transitions, and offboarding using ServiceNow HR Service Delivery."
+},
+{
+  "title": "HR Case vs HR Task in ServiceNow",
+  "slug": "hr-case-vs-task",
+  "date": "2025-12-22",
+  "category": "HRSD",
+  "tags": ["HRSD", "HR Case", "HR Task"],
+  "summary": "Explains the relationship between HR cases and HR tasks and how workflows operate."
+},
+
+{
+  "title": "Risk Management Process in ServiceNow GRC",
+  "slug": "risk-management-grc",
+  "date": "2025-12-22",
+  "category": "GRC",
+  "tags": ["GRC", "Risk", "Compliance"],
+  "summary": "A practical overview of identifying, assessing, and mitigating risks using ServiceNow GRC."
+},
+{
+  "title": "Policy and Compliance Management in GRC",
+  "slug": "policy-compliance-grc",
+  "date": "2025-12-22",
+  "category": "GRC",
+  "tags": ["GRC", "Compliance", "Policies"],
+  "summary": "Explains how policies and compliance frameworks are managed in ServiceNow GRC."
+},
+
+{
+  "title": "What is ServiceNow ITOM and How It Works",
+  "slug": "servicenow-itom-overview",
+  "date": "2025-12-22",
+  "category": "ITOM",
+  "tags": ["ITOM", "Discovery", "ServiceNow"],
+  "summary": "An introduction to ITOM, including Discovery, Service Mapping, and Event Management."
+},
+{
+  "title": "CI Outage and Event Correlation in ITOM",
+  "slug": "ci-outage-event-correlation",
+  "date": "2025-12-22",
+  "category": "ITOM",
+  "tags": ["ITOM", "CI", "Events"],
+  "summary": "Explains how CI outages and event correlation work to reduce noise and alerts."
+},
+
+{
+  "title": "Demand Management in ServiceNow ITBM",
+  "slug": "demand-management-itbm",
+  "date": "2025-12-22",
+  "category": "ITBM",
+  "tags": ["ITBM", "Demand", "PPM"],
+  "summary": "Explains how demands are captured, assessed, and converted into projects in ITBM."
+},
+{
+  "title": "Project vs Agile Development in ITBM",
+  "slug": "project-vs-agile-itbm",
+  "date": "2025-12-22",
+  "category": "ITBM",
+  "tags": ["ITBM", "Agile", "Projects"],
+  "summary": "Compares traditional project management with agile development in ServiceNow ITBM."
+},
+
+{
+  "title": "Hardware Asset Lifecycle in ServiceNow HAM",
+  "slug": "hardware-asset-lifecycle-ham",
+  "date": "2025-12-22",
+  "category": "HAM",
+  "tags": ["HAM", "Assets", "Lifecycle"],
+  "summary": "Covers procurement, deployment, maintenance, and disposal of hardware assets."
+},
+{
+  "title": "HAM vs SAM: Key Differences",
+  "slug": "ham-vs-sam",
+  "date": "2025-12-22",
+  "category": "HAM",
+  "tags": ["HAM", "SAM", "Assets"],
+  "summary": "Explains how hardware asset management differs from software asset management."
+},
+
+{
+  "title": "Software Asset Management Basics in ServiceNow",
+  "slug": "sam-basics-servicenow",
+  "date": "2025-12-22",
+  "category": "SAM",
+  "tags": ["SAM", "Licensing", "Compliance"],
+  "summary": "Introduces software asset lifecycle, entitlements, and compliance tracking."
+},
+{
+  "title": "License Compliance and Optimization in SAM",
+  "slug": "license-compliance-sam",
+  "date": "2025-12-22",
+  "category": "SAM",
+  "tags": ["SAM", "Licenses", "Optimization"],
+  "summary": "Explains how ServiceNow SAM helps reduce license cost and compliance risk."
+},
+
+{
+  "title": "ServiceNow Workspaces vs Classic UI",
+  "slug": "workspaces-vs-classic-ui",
+  "date": "2025-12-22",
+  "category": "Workspaces",
+  "tags": ["Workspaces", "UI Builder", "ServiceNow"],
+  "summary": "Compares Workspaces with the classic UI and explains when to use each."
+},
+{
+  "title": "UI Builder Customization Best Practices",
+  "slug": "ui-builder-best-practices",
+  "date": "2025-12-22",
+  "category": "Workspaces",
+  "tags": ["UI Builder", "Workspaces", "UX"],
+  "summary": "Best practices for building performant and maintainable workspace pages."
+},
+{
+  "title": "Business Rules vs Flow Designer: When to Use What",
+  "slug": "business-rule-vs-flow-designer",
+  "date": "2025-12-22",
+  "category": "Scripting",
+  "tags": ["Business Rules", "Flow Designer", "Scripting"],
+  "summary": "Explains scripting vs low-code automation decisions in ServiceNow."
+},
+{
+  "title": "GlideRecord Best Practices for Performance",
+  "slug": "gliderecord-best-practices",
+  "date": "2025-12-22",
+  "category": "Scripting",
+  "tags": ["GlideRecord", "Performance", "Scripting"],
+  "summary": "Covers efficient querying and performance-safe scripting techniques."
+},
+
+{
+  "title": "REST API Integration in ServiceNow",
+  "slug": "rest-api-integration-servicenow",
+  "date": "2025-12-22",
+  "category": "Integration",
+  "tags": ["REST API", "Integration", "ServiceNow"],
+  "summary": "Explains inbound and outbound REST integrations using ServiceNow."
+},
+{
+  "title": "Okta Integration with ServiceNow Explained",
+  "slug": "okta-integration-servicenow",
+  "date": "2025-12-22",
+  "category": "Integration",
+  "tags": ["Okta", "Integration", "SSO"],
+  "summary": "Describes how ServiceNow integrates with Okta for identity and access management."
+},
+
+{
+  "title": "Web Development Roadmap: Frontend to Backend",
+  "slug": "web-development-roadmap",
+  "date": "2025-12-22",
+  "category": "Tech Info",
+  "tags": ["Web Development", "Frontend", "Backend"],
+  "summary": "A complete overview of web development covering frontend, backend, databases, and deployment fundamentals."
+},
+{
+  "title": "JavaScript Full-Stack Development Explained",
+  "slug": "javascript-fullstack-development",
+  "date": "2025-12-22",
+  "category": "Tech Info",
+  "tags": ["JavaScript", "Full Stack", "Web Development"],
+  "summary": "Explains how JavaScript is used across the full stack, including frontend frameworks, backend runtimes, and APIs."
+}
+
+]
 
